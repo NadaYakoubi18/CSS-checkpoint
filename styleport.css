@@ -1,0 +1,76 @@
+* {
+  margin: 0%;
+  padding: 0;
+}
+/* main */
+#title {
+  font-size: 50px;
+  color: #c3c4c4;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  height: 100px;
+}
+
+/* the header part */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-end;
+  height: 100px;
+}
+
+/* the about section*/
+
+#about {
+  display: flex;
+
+  background-color: darkgrey;
+  gap: 30px;
+  align-items: center;
+  margin: 2% 10%;
+}
+.info {
+  position: right;
+}
+.work {
+  margin: 5% 20%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px 2em;
+}
+.work #cons {
+  align-self: center;
+  text-justify: distribute;
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.work #back {
+  align-self: center;
+  text-justify: distribute;
+}
+.work #sales {
+  align-self: center;
+  text-justify: distribute;
+}
+.res {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+#resume .vid {
+  display: flex;
+  justify-content: center;
+  gap: 100px 2em;
+}
+#contact {
+  display: flex;
+
+  gap: 30px;
+  align-items: center;
+  margin: 2% 10%;
+  justify-content: space-between;
+}
+.ico {
+  display: flex;
+  align-items: right;
+}
